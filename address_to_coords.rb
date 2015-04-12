@@ -17,7 +17,6 @@ url_safe_street_address = URI.encode(street_address)
 
 # Your code goes below. Hints:
 
-
 url_of_data_we_want = "https://maps.googleapis.com/maps/api/geocode/json?address=#{url_safe_street_address}"
 
 raw_data = open(url_of_data_we_want).read
